@@ -1,0 +1,6 @@
+project: savantenvs/sml
+target: fuzz_queue
+cmds:
+  - cmd: /mayhem/fuzz_queue
+    libfuzzer: true
+    timeout: 5

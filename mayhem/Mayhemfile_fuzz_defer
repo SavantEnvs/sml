@@ -1,0 +1,6 @@
+project: savantenvs/sml
+target: fuzz_defer
+cmds:
+  - cmd: /mayhem/fuzz_defer
+    libfuzzer: true
+    timeout: 5

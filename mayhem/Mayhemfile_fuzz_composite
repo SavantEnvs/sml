@@ -1,0 +1,6 @@
+project: savantenvs/sml
+target: fuzz_composite
+cmds:
+  - cmd: /mayhem/fuzz_composite
+    libfuzzer: true
+    timeout: 5
